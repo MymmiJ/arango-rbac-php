@@ -1,0 +1,21 @@
+{
+    "name": "future/arango-rbac",
+    "description": "Role based access control in ArangoDB",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jimmy MacGregor",
+            "email": "jimmy.macgregor@futurenet.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "triagens/arangodb": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArangoRbac\\": "ArangoRbac/src/ArangoRbac",
+            "ArangoDBClient\\": "ArangoRbac/src/Client"
+        }
+    }
+}

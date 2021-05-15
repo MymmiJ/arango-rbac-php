@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0f1318fbaa118f5092612539b6df505b",
+    "packages": [
+        {
+            "name": "triagens/arangodb",
+            "version": "3.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arangodb/arangodb-php.git",
+                "reference": "f69175ffbd48457228eabf2a531f1401b4634c7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://artifactory.futurenet.com/artifactory/api/composer/php-remote/vcs-dists/zip/arangodb/arangodb-php/f69175ffbd48457228eabf2a531f1401b4634c7e",
+                "reference": "f69175ffbd48457228eabf2a531f1401b4634c7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ArangoDBClient": "lib/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Steemann",
+                    "role": "Developer",
+                    "homepage": "https://github.com/arangodb/arangodb-php"
+                },
+                {
+                    "name": "Frank Mayer",
+                    "role": "Developer",
+                    "homepage": "https://github.com/arangodb/arangodb-php"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/arangodb/arangodb-php/graphs/contributors"
+                }
+            ],
+            "description": "ArangoDB PHP client",
+            "homepage": "https://github.com/arangodb/arangodb-php",
+            "keywords": [
+                "Arango",
+                "ArangoDb",
+                "database",
+                "distributed",
+                "document store",
+                "graph database",
+                "multi-model",
+                "nosql"
+            ],
+            "time": "2019-08-09T15:29:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
